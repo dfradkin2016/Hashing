@@ -2,7 +2,7 @@
 
 public class DariaHash extends Hasher
 {
- 	public int hash(Object obj);
+  public int hash(Object obj);
   {
     int output=0;
     String ascii = obj.toString();
