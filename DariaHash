@@ -1,0 +1,20 @@
+//Daria Fradkin
+
+public class DariaHash extends Hasher
+{
+ 	public int hash(Object obj);
+  {
+    int output=0;
+    String ascii = obj.toString();
+    for (int i = 0; i < ascii.length(); i++)
+    {
+      output += (int) ascii.charAt(i);
+    }
+    return output;
+  }
+  
+  public String getCaderName()
+  {
+    return "Daria";
+  }
+}
